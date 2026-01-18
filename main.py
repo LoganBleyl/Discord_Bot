@@ -13,7 +13,7 @@ intents.message_content = True
 intents.members = True
 
 bot = commands.Bot(command_prefix='$', intents=intents)
-default_role = "𝕿𝖆𝖗𝖓𝖎𝖘𝖍𝖊𝖉"
+default_role = ""
 
 @bot.event
 async def on_ready():
