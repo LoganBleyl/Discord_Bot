@@ -38,8 +38,8 @@ async def on_message(message):
 async def poll(ctx, *, question):
     embed = discord.Embed(title="New Poll", description=question)
     poll_message = await ctx.send(embed=embed)
-    await poll_message.reaction(":Thugshaker:")
-    await poll_message.reaction(":Jman:")
+    await poll_message.reaction("")
+    await poll_message.reaction("")
 
 @bot.command()
 async def hello(ctx):
