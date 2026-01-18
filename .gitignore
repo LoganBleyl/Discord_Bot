@@ -6,6 +6,6 @@ dist/
 wheels/
 *.egg-info
 .env
-discord.log
+*.log
 # Virtual environments
 .venv
